@@ -1,0 +1,22 @@
+.detailWrapp{
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
+.tittleDetail{
+    font-size: 32px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.innerDetail{
+    height: 77%;
+    overflow: auto;
+}
+
+.descriptionDetail{ 
+    line-height: 1.2;
+    padding: 0 6px;
+}

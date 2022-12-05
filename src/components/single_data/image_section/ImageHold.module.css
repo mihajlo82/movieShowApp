@@ -1,0 +1,11 @@
+.imgHoldWrapp{
+    width:100%;
+    height: 39%;
+    border: 2px solid black;
+}
+
+.logoMovie{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
