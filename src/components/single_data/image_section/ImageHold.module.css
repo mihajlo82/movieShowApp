@@ -1,6 +1,6 @@
 .imgHoldWrapp{
     width:100%;
-    height: 39%;
+    height: 40%;
     border: 2px solid black;
 }
 
@@ -9,3 +9,10 @@
     height: 100%;
     background-size: contain;
 }
+
+/*////////// RESPONSIVE /////////*/
+@media only screen and (max-width: 768px) {
+    .tittleBox h2 {
+        font-size: 17px;
+    }
+  }

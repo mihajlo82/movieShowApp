@@ -5,8 +5,8 @@
 }
 
 .tittleDetail{
+    padding-top: 10px;
     font-size: 32px;
-    height: 20%;
     display: flex;
     align-items: center;
 }
@@ -18,5 +18,15 @@
 
 .descriptionDetail{ 
     line-height: 1.2;
-    padding: 0 6px;
+    padding: 10px 6px;
 }
+
+@media only screen and (max-width:555px) {
+    .tittleDetail{
+        font-size: 22px;
+    }
+
+    .innerDetail{
+        margin-top: 10px;
+    }
+  }

@@ -49,4 +49,8 @@
     .linkItemBox {
         width: 99%;
     }
+
+    .tittleBox h2 {
+        font-size: 15px;
+    }
   }
