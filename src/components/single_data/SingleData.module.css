@@ -1,16 +1,21 @@
-.singleDataWrapp{
-    width:  52vw;
+.singleDataWrapp {
+    width: 60vw;
+    max-width: 780px;
     height: 100vh;
     background-color: white;
     padding: 0 30px;
 }
 
 /*////////// RESPONSIVE /////////*/
-
 @media only screen and (max-width:777px) {
-    .singleDataWrapp{
-        width: 99vw; 
+    .singleDataWrapp {
+        width: 99vw;
         padding: 0 20px;
-
     }
-  }
+}
+
+@media only screen and (max-width:399px) {
+    .singleDataWrapp {
+        padding: 0 10px;
+    }
+}

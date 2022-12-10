@@ -1,22 +1,21 @@
-.mainWrapp{
-    width: 59vw;
-    height: 100vh; 
+.mainWrapp {
+    width: 1111px;
+    height: 100vh;
     background-color: white;
     padding: 0 35px;
 }
 
 /*////////// RESPONSIVE /////////*/
-
 @media only screen and (max-width: 1333px) {
-    .mainWrapp{
-        width: 85vw; 
+    .mainWrapp {
+        width: 85vw;
         padding: 0 35px;
     }
-  }
+}
 
-  @media only screen and (max-width: 888px) {
-    .mainWrapp{
-        width: 99vw; 
+@media only screen and (max-width: 888px) {
+    .mainWrapp {
+        width: 99vw;
         padding: 0 35px;
     }
-  }
+}

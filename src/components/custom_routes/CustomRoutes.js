@@ -1,5 +1,5 @@
 import Main from "../Main";
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import SingleMovie from "../single_data/SingleMedia";
 
 const CustomRoutes = () => {

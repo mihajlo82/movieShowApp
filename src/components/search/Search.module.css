@@ -1,16 +1,16 @@
-.searchWrapp{
+.searchWrapp {
     width: 100%;
     height: 9vh;
     display: flex;
     align-items: center;
 }
 
-.searchInputWrapp{
+.searchInputWrapp {
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
-.searchInput{
+.searchInput {
     width: 100%;
     border-radius: 20px;
     height: 45px;
@@ -20,8 +20,8 @@
     border: 2px solid gray;
 }
 
-.iconSearch{
-    position:absolute;
-    top:11px;
+.iconSearch {
+    position: absolute;
+    top: 11px;
     left: 11px;
 }

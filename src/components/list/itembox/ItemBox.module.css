@@ -5,32 +5,32 @@
     text-decoration: none;
     color: black;
     transition: 0.2s ease-out;
-    max-height: 370px;
+    max-height: 350px;
 }
 
 .linkItemBox:hover {
     transform: scale(0.99);
 }
 
-.itemBoxWrapp{
+.itemBoxWrapp {
     width: 100%;
     height: 100%;
 }
 
-.pictureWrapp{
+.pictureWrapp {
     width: 100%;
-    height: 280px;
+    height: 268px;
     background-color: black;
 }
 
-.picture{
+.picture {
     width: 100%;
     height: 100%;
     background-size: contain;
 }
 
-.tittleBox{
-    width:100%;
+.tittleBox {
+    width: 100%;
     height: 65px;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@
     .tittleBox h2 {
         font-size: 17px;
     }
-  }
+}
 
 @media only screen and (max-width: 575px) {
     .linkItemBox {
@@ -53,4 +53,27 @@
     .tittleBox h2 {
         font-size: 15px;
     }
-  }
+}
+
+@media only screen and (max-width: 399px) {
+    .linkItemBox {
+        width: 99%;
+        height: 265px;
+    }
+
+    .pictureWrapp {
+        width: 100%;
+        height: 215px;
+        background-color: black;
+    }
+
+    .picture {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+    }
+
+    .tittleBox {
+        height: 50px;
+    }
+}

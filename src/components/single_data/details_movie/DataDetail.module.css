@@ -1,32 +1,32 @@
-.detailWrapp{
+.detailWrapp {
     width: 100%;
     height: 50%;
     overflow: auto;
 }
 
-.tittleDetail{
+.tittleDetail {
     padding-top: 10px;
     font-size: 32px;
     display: flex;
     align-items: center;
 }
 
-.innerDetail{
+.innerDetail {
     height: 77%;
     overflow: auto;
 }
 
-.descriptionDetail{ 
+.descriptionDetail {
     line-height: 1.2;
     padding: 10px 6px;
 }
 
 @media only screen and (max-width:555px) {
-    .tittleDetail{
+    .tittleDetail {
         font-size: 22px;
     }
 
-    .innerDetail{
+    .innerDetail {
         margin-top: 10px;
     }
-  }
+}

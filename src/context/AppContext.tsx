@@ -1,10 +1,14 @@
 import { createContext } from "react";
-import { IThemeContext, ChildrenProps } from "../types/context_app/context_type";
-import useFetch from "./useFetch"; 
+import {
+  IThemeContext,
+  ChildrenProps,
+} from "../types/context_app/context_type";
+import useFetch from "./useFetch";
 export const MediaContext = createContext<IThemeContext | any>({});
 
-const AppContext = ({ children }:ChildrenProps) => { 
-  const {medias, tabActive, setTabActive, searchVal, setSearchVal} = useFetch(); 
+const AppContext = ({ children }: ChildrenProps) => {
+  const { medias, tabActive, setTabActive, searchVal, setSearchVal } =
+    useFetch();
 
   return (
     <MediaContext.Provider
@@ -12,13 +16,13 @@ const AppContext = ({ children }:ChildrenProps) => {
         tabActive,
         setTabActive,
         medias,
-        searchVal, 
-        setSearchVal
+        searchVal,
+        setSearchVal,
       }}
     >
-        {children}
+      {children}
     </MediaContext.Provider>
-  )
-}
+  );
+};
 
-export default AppContext
+export default AppContext;
